@@ -46,12 +46,12 @@ At the time of writing this blog, we are still in the process of developing a we
 Current Status 
 We are currently using a placeholder image generator that was produced using a simple GAN model. The code for the GAN model was based on code taken from off the web. We slightly modified the code for our own purposes, but it is mostly not our own, so we did not include it here in the report. However, we have included a link to the site we used for reference in the footnotes. 
 
-Google Collab 
+### Google Collab 
 Using a GAN model as a placeholder, we were able to run an image generator in Google Collab. The placeholder model was created on 500 epochs, so the detail of the output is relatively underdeveloped. However, you can vaguely make out the image of a cat. It looks more like impressionistic art than a photograph, but at least it’s producing output that approaches our desired output. 
 
-StreamLit
+### StreamLit
 We also ran the app in a web browser using StreamLit. Unfortunately, StreamLit does not allow the use of plotting images in the same way that Collab and other environments do. We tried converting the numpy array to an image using PLT, but it produced an image that looks nothing like the image we were able to create using the plotter. 
 
-Steps for Further Development 
+### Steps for Further Development 
 There are several steps for further developing the app. First, we would like to create a new image generator using our original VAE model. This takes a lot of time to train. A more powerful processor could do it faster as well. We would take this new saved model and run it in the web app in place of the placeholder model that we are currently using. We would do this in both Collab and StreamLit. 
 The next step for further development would be to find a way to convert the numpy array into an image or some other data type that can be displayed on the browser using StreamLit. In the final version of the app, our goal would be to have the output in StreamLit similar to or the same as the output in Google Collab. 
