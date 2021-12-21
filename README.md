@@ -1,6 +1,6 @@
 # Car Face Images Generator Using VAE and Web App 
 
-By Matthew Smithey, Rosie Nguyen, and Saloni Tak
+By Rosie Nguyen, Matthew Smithey, and Saloni Tak
 ## 1. Introduction
 
 According to Bloomberg's report, cats drive almost 15 percent of all Web traffic. There are also about 30 million Google searches per month for the search term “cat".
